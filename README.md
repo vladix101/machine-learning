@@ -44,4 +44,4 @@ Classification models are evaluated with accuracy score and confusion matrices.
 pip install numpy pandas matplotlib scikit-learn jupyter
 jupyter notebook
 ```
-The notebooks expect the CSV datasets in a `Python/` folder next to them.
+All datasets live in the `data/` folder; notebooks read them via relative paths (`data/<file>.csv`), so run Jupyter from the repository root.
